@@ -1,0 +1,19 @@
+///三角形
+
+# include <stdio.h>
+int main()
+{
+    printf("請輸入大小");
+    int n;
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++){
+        int star = i; ///有N個星星
+        ///數一數 每一樓有多少空格
+
+         for(int k=1; k<=star; k++)printf("*");
+
+        printf("\n");
+
+    }
+
+}
